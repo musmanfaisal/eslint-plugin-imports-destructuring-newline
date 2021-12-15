@@ -14,9 +14,9 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gmsorrow/eslint-plugin-modules-newline.git"
+    "url": "https://github.com/ruudandriessen/eslint-plugin-modules-newline.git"
   },
-  "homepage": "https://github.com/gmsorrow/eslint-plugin-modules-newline#readme",
+  "homepage": "https://github.com/ruudandriessen/eslint-plugin-modules-newline#readme",
   "scripts": {
     "test": "mocha tests --recursive"
   },
