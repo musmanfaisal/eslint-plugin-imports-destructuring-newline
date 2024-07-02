@@ -1,6 +1,8 @@
-# eslint-plugin-modules-newlines
+# eslint-plugin-imports-destructuring-newline
 
 Eslint plugin to enforce placing import and export variables on separate lines
+
+> :heart: This project was forked from https://github.com/ruudandriessen/eslint-plugin-modules-newline <br /> Credits to the owner
 
 ## Installation
 
@@ -14,26 +16,26 @@ or
 $ yarn add eslint --dev
 ```
 
-Next, install `eslint-plugin-modules-newlines`:
+Next, install `eslint-plugin-imports-destructuring-newline`:
 
 ```
-$ npm install eslint-plugin-modules-newlines --save-dev
+$ npm install eslint-plugin-imports-destructuring-newline --save-dev
 ```
 or
 ```
-$ yarn add eslint-plugin-modules-newlines --dev
+$ yarn add eslint-plugin-imports-destructuring-newline --dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-modules-newlines` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-imports-destructuring-newline` globally.
 
 ## Usage
 
-Add `eslint-plugin-modules-newlines` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `eslint-plugin-imports-destructuring-newline` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "modules-newlines"
+        "imports-destructuring-newline"
     ]
 }
 ```
@@ -44,11 +46,10 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "modules-newline/import-declaration-newlines": "warn",
-        "modules-newline/import-declaration-newlines": ["warn", {
+        "imports-destructuring-newline/import-declaration-newlines": ["warn", {
             "minProperties": 2
         }],
-        "modules-newline/export-declaration-newlines": "warn"
+        "imports-destructuring-newline/export-declaration-newlines": "warn"
     }
 }
 ```
@@ -57,10 +58,5 @@ Then configure the rules you want to use under the rules section.
 
 * Enforce placing import variables on separate lines (import-declaration-newline). You can pass minProperties value to decide how many variables can be imported without the invokation of rule. Defaults to 2
 * Enforce placing export variables on separate lines (export-declaration-newline)
-
-## For maintainers
-AST explorer - https://astexplorer.net/#/gist/b6093767261d6a5bce76043dcea24bec/5fe761308f41936beaa30cbe7aef3a6f0283e11d
-
-
 
 

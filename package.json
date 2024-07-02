@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-modules-newlines",
-  "version": "0.0.7",
+  "name": "eslint-plugin-imports-destructuring-newline",
+  "version": "0.0.2",
   "description": "Enforce placing import or export variables on a newline",
   "keywords": [
     "eslint",
@@ -14,9 +14,9 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruudandriessen/eslint-plugin-modules-newline.git"
+    "url": "https://github.com/musmanfaisal/eslint-plugin-imports-destructuring-newline.git"
   },
-  "homepage": "https://github.com/ruudandriessen/eslint-plugin-modules-newline#readme",
+  "homepage": "https://github.com/musmanfaisal/eslint-plugin-imports-destructuring-newline#readme",
   "scripts": {
     "test": "mocha tests --recursive"
   },
